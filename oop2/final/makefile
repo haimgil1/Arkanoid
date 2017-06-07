@@ -1,13 +1,11 @@
-#305687253 308425990
-#Shurgil barisya
-
-bin:
-	mkdir bin
+# 203676945 305720054
+# gilhaim dunetzn
 compile: bin
-	javac -d bin -cp biuoop-1.4.jar src/*.java
-jar: compile
-	jar cfm ass6game.jar Manifest.txt -C bin .
+	find src -name "*.java" > sources.txt
+	javac -d bin -cp biuoop-1.4.jar @sources.txt
 run: jar
 	java -jar ass6game.jar
-check:
-	java -jar checkstyle-5.7-all.jar -c biuoop.xml src/*java
+jar: 
+	jar cfm ass6game.jar Manifest.mf -C bin . -C resources .
+bin:
+	mkdir bin

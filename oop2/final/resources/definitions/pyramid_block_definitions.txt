@@ -1,0 +1,5 @@
+# block definitions
+bdef symbol:b width:51 height:34 hit_points:2 fill:image(block_images/brown.jpg) 
+
+# spacers definitions
+sdef symbol:@ width:51

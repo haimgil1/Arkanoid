@@ -1,0 +1,7 @@
+‪# block definitions‬
+
+bdef symbol:b width:20 height:10 hit_points:2 fill-2:color(RGB(186,93,1)) fill-1:color(RGB(203,109,1))
+bdef symbol:n width:40 height:20 hit_points:1000 fill:image(block_images/net.png) 
+
+‪# spacers definitions‬
+sdef symbol:@ width:20

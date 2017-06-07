@@ -1,0 +1,10 @@
+# default values for blocks
+default height:30 width:30 hit_points:1
+
+# block definitions
+bdef symbol:g height:180 width:120 hit_points:4 fill:image(block_images/cup.png) fill-1:color(red) fill-2:color(black)
+bdef symbol:b fill:image(block_images/soccerball.png) 
+
+
+# spacers definitions
+sdef symbol:@ width:30

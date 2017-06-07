@@ -1,0 +1,97 @@
+# Level 1
+# Jordan
+
+START_LEVEL
+level_name:Jordan is the king
+ball_velocities:45,800 -45,500 -30,500 30,500
+background:image(background_images/jordan.jpg)
+paddle_speed:450
+paddle_width:400
+block_definitions:definitions/board_block_definitions.txt
+blocks_start_x:500
+blocks_start_y:100
+row_height:10
+num_blocks:78
+START_BLOCKS
+
+bbbbbbbbbbbbb
+b@@@@@@@@@@@b
+b@@@@@@@@@@@b
+b@@@@@@@@@@@b
+b@@@@@@@@@@@b
+b@@@bbbbb@@@b
+b@@@b@@@b@@@b
+b@@@b@@@b@@@b
+b@@@b@@@b@@@b
+b@@@b@@@b@@@b
+b@@@b@@@b@@@b
+b@@@bbbbb@@@b
+b@@@n@@@@@@b
+b@@@@@@@@@@@b
+b@@@@@@@@@@@b
+b@@@@@@@@@@@b
+b@@@@@@@@@@@b
+bbbbbbbbbbbbb
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Soccer screen
+START_LEVEL
+level_name:Euro 2016
+ball_velocities:30,400 -50,500 70,500 330,500 15,500 30,500 45,500 60,500 45,550
+background:image(background_images/soccer.png)
+paddle_speed:250
+paddle_width:300
+block_definitions:definitions/soccer_block_definitions.txt
+blocks_start_x:200
+blocks_start_y:80
+row_height:30
+num_blocks:142
+START_BLOCKS
+
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbgbbbbb
+bbbbbb@@@@bbbbb
+bbbbbb@@@@bbbbb
+bbbbbb@@@@bbbbb
+bbbbbb@@@@bbbbb
+bbbbbb@@@@bbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+START_LEVEL
+level_name:Pyramid
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/pyramid.jpg)
+paddle_speed:100
+paddle_width:550
+block_definitions:definitions/pyramid_block_definitions.txt
+blocks_start_x:20
+blocks_start_y:100
+row_height:34
+num_blocks:64
+START_BLOCKS
+
+@@@@@@@b@@@@@@@
+@@@@@@bbb@@@@@@
+@@@@@bbbbb@@@@@
+@@@@bbbbbbb@@@@
+@@@bbbbbbbbb@@@
+@@bbbbbbbbbbb@@
+@bbbbbbbbbbbbb@
+bbbbbbbbbbbbbbb
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
